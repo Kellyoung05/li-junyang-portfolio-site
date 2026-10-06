@@ -209,23 +209,6 @@ nav a:focus-visible::after {
     0 10px 26px rgba(31, 68, 51, 0.2);
 }
 
-.profile-emblem::after {
-  position: absolute;
-  right: 0.65rem;
-  bottom: 0.65rem;
-  display: grid;
-  width: 2.25rem;
-  height: 2.25rem;
-  border: 2px solid rgba(255, 255, 255, 0.86);
-  border-radius: 50%;
-  color: white;
-  background: rgba(24, 56, 44, 0.92);
-  content: "❧";
-  font-family: var(--serif);
-  font-size: 1.15rem;
-  place-items: center;
-}
-
 .profile-emblem img {
   display: block;
   width: 100%;
